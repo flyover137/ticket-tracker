@@ -222,6 +222,7 @@ const jsonLd = renderJsonLd ? generateOpeningHoursSchema(config, businessName, b
     --color-danger: var(--oh-color-danger, #ef4444);
     --color-danger-bg: var(--oh-color-danger-bg, #fef2f2);
     --color-danger-border: var(--oh-color-danger-border, rgba(239, 68, 68, 0.2));
+    --oh-color-text-muted: var(--oh-color-text-muted-light, #475569);
     
     display: flex;
     align-items: center;
@@ -302,7 +303,7 @@ const jsonLd = renderJsonLd ? generateOpeningHoursSchema(config, businessName, b
     gap: 0.35rem;
     font-size: 0.875rem;
     font-weight: 600;
-    color: var(--oh-color-text-muted, #64748b);
+    color: var(--oh-color-text-muted);
     user-select: none;
     transition: color 0.15s ease;
   }
@@ -398,7 +399,7 @@ const jsonLd = renderJsonLd ? generateOpeningHoursSchema(config, businessName, b
   }
 
   .oh-day-intervals.is-closed-text {
-    color: var(--oh-color-text-muted, #64748b);
+    color: var(--oh-color-text-muted);
   }
 
   .oh-special-dates {
@@ -413,7 +414,7 @@ const jsonLd = renderJsonLd ? generateOpeningHoursSchema(config, businessName, b
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    color: var(--oh-color-text-muted, #64748b);
+    color: var(--oh-color-text-muted);
   }
 
   .oh-special-list {
@@ -441,7 +442,7 @@ const jsonLd = renderJsonLd ? generateOpeningHoursSchema(config, businessName, b
 
   .oh-special-label {
     font-size: 0.65rem;
-    color: var(--oh-color-text-muted, #64748b);
+    color: var(--oh-color-text-muted);
   }
 
   .oh-special-hours {
@@ -476,7 +477,7 @@ const jsonLd = renderJsonLd ? generateOpeningHoursSchema(config, businessName, b
       --color-danger-bg: var(--oh-color-danger-bg-dark, rgba(248, 113, 113, 0.12));
       --color-danger-border: var(--oh-color-danger-border-dark, rgba(248, 113, 113, 0.3));
       --oh-color-text: var(--oh-color-text-dark, #f8fafc);
-      --oh-color-text-muted: var(--oh-color-text-muted-dark, #94a3b8);
+      --oh-color-text-muted: var(--oh-color-text-muted-dark, #cbd5e1);
       --oh-card-bg: var(--oh-card-bg-dark, #1e293b);
       --oh-border-color: var(--oh-border-color-dark, #334155);
     }
